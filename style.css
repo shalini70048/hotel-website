@@ -1,0 +1,105 @@
+.line {
+     border: solid 1px;
+     color: black;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.line {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #555;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.price-summary {
+    margin-top: 20px;
+}
+
+.price-summary h1 {
+    margin-bottom: 10px;
+}
+
+.price-summary .item,
+.price-summary .subtotal,
+.price-summary .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.price-summary .subtotal,
+.price-summary .total {
+    font-weight: bold;
+}
+
+.price-summary .note {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.help-section {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
